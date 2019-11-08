@@ -1,0 +1,20 @@
+{
+    "name": "andrewdevelop/hex-contracts",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andrewdevelop",
+            "email": "andrewdevelop@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Contracts\\": "src/"
+        }
+    }
+}
