@@ -8,7 +8,7 @@ interface CommandBus
 {
 	/**
 	 * Execute a command.
-	 * @param  \Core\Contracts\Command $command 
+	 * @param  Command $command
 	 * @return mixed
 	 */
     public function execute(Command $command);

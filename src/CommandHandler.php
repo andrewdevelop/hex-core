@@ -8,7 +8,7 @@ interface CommandHandler
 {
     /**
      * Handle an incoming command.
-     * @param  \Core\Contracts\Command $command
+     * @param  Command $command
      * @return mixed
      */	
 	public function handle(Command $command);
