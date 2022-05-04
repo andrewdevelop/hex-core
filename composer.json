@@ -1,5 +1,5 @@
 {
-    "name": "andrewdevelop/hex-contracts",
+    "name": "andrewdevelop/hex-core",
     "type": "package",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2"
+        "php": "^8.0.2"
     },
     "autoload": {
         "psr-4": {
